@@ -29,4 +29,6 @@ public class UserPost {
 
     @CreationTimestamp
     private Date timestamp;
+
+
 }

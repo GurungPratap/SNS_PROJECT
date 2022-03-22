@@ -11,4 +11,5 @@ import java.util.List;
 public interface UserPostService {
    List<UserPost> getPostsByUserName(String username);
    boolean savePost(UserPost post);
+   boolean deletePostById(long postId);
 }
